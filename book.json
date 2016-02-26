@@ -1,0 +1,65 @@
+//gitbook插件配置
+{
+    "title" : "学习小仓库",
+    "version":"0.1"
+    "description" : "记录生活感悟",
+    "author" : "许珮烜",
+    "generator": "site",
+    "language" : "zh-hans",
+    "links" : {
+        "sidebar" : {
+            "Home" : "https://github.com/xupeixuan"
+        }
+    },
+   "plugins": [
+        "disqus",
+        "-search",
+        "search-pro",
+        "advanced-emoji",
+        "github",
+        "ace",
+        "anchors",
+        "emphasize",
+        "katex",
+        "include-codeblock",
+        "splitter",
+        "mermaid",
+        "tbfed-pagefooter",
+        "sectionx",
+        "expandable-chapters",
+        "codeblock-filename",
+        "-baidu",
+        "-ga"
+    ],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "personal-knowledge-map"
+        },
+        "search-pro": {
+            "cutWordLib": "nodejieba",
+            "defineWord" : ["知识小仓库"]
+        },
+        "github": {
+            "url": "https://github.com/xupeixuan/"
+        },
+        
+        "sharing": {
+            "weibo": true,
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "instapaper": false,
+            "vk": false,
+            "all": [
+                "facebook", "google", "twitter",
+                "weibo", "instapaper"
+            ]
+        },
+        
+        "tbfed-pagefooter": {
+            "copyright":"Copyright 2016 by 许珮烜",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }        
+    }
+}
