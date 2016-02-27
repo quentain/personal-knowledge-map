@@ -1,4 +1,3 @@
-//gitbook插件配置
 {
     "title" : "学习小仓库",
     "version":"0.1",
@@ -30,7 +29,7 @@
         "expandable-chapters",
         "codeblock-filename",
         "-baidu",
-        "-ga"
+        "ga"
     ],
     "pluginsConfig": {
         "disqus": {
@@ -61,6 +60,10 @@
             "copyright":"Copyright 2016 by 许珮烜",
             "modify_label": "该文件修订时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+
+        "ga": {
+             "token": "UA-74389689-1"
         }        
     }
 }
