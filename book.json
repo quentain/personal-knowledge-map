@@ -1,7 +1,7 @@
 //gitbook插件配置
 {
     "title" : "学习小仓库",
-    "version":"0.1"
+    "version":"0.1",
     "description" : "记录生活感悟",
     "author" : "许珮烜",
     "generator": "site",
@@ -13,6 +13,7 @@
     },
    "plugins": [
         "disqus",
+        "autocover",
         "-search",
         "search-pro",
         "advanced-emoji",
