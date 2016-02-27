@@ -57,8 +57,8 @@
         },
         
         "tbfed-pagefooter": {
-            "copyright":"Copyright 2016 by 许珮烜",
-            "modify_label": "该文件修订时间：",
+            "copyright":"Copyright 2016 by xupeixuan",
+            "modify_label": "last modified:",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
 
