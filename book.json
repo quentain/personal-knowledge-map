@@ -2,12 +2,12 @@
     "title" : "学习小仓库",
     "version":"0.1",
     "description" : "记录生活感悟",
-    "author" : "许珮烜",
+    "author" : "赵颖群",
     "generator": "site",
     "language" : "zh-hans",
     "links" : {
         "sidebar" : {
-            "Home" : "https://github.com/xupeixuan"
+            "Home" : "https://github.com/quentain"
         }
     },
    "plugins": [
@@ -29,7 +29,7 @@
         "expandable-chapters",
         "codeblock-filename",
         "-baidu",
-        "ga"
+        "-ga"
     ],
     "pluginsConfig": {
         "disqus": {
@@ -40,7 +40,7 @@
             "defineWord" : ["知识小仓库"]
         },
         "github": {
-            "url": "https://github.com/xupeixuan/"
+            "url": "https://github.com/quentain/"
         },
         
         "sharing": {
@@ -57,13 +57,10 @@
         },
         
         "tbfed-pagefooter": {
-            "copyright":"Copyright 2016 by xupeixuan",
+            "copyright":"Copyright 2016 by quentain",
             "modify_label": "last modified:",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
 
-        "ga": {
-             "token": "UA-74389689-1"
-        }        
     }
 }
